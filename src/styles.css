@@ -1,14 +1,23 @@
 body {
   font-family: "Poopins", sans-serif;
+  background-color: blue;
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
+  grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
@@ -60,14 +69,56 @@ header a {
   border-radius: 5px;
 }
 
+main {
+  background-color: white;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: black;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: black;
+  margin: 0;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  opacity: 0.7;
+}
+
+img {
+  height: 530px;
+  width: auto;
+}
+
+.img-res {
+  max-width: 100%;
+  padding-top: 30px;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px;
 }
 
 footer {
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 255, 0.7), rgba(0, 0, 255, 0.7)),
     url("../images/footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +136,6 @@ footer p {
   font-size: 16px;
   line-height: 1.5;
   opacity: 0.9;
-  margin-right: 20px;
 }
 
 footer ul {
@@ -116,5 +166,14 @@ footer a {
   }
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
