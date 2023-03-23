@@ -1,6 +1,6 @@
 body {
   font-family: "Poopins", sans-serif;
-  background-color: blue;
+  background-color: #87ceeb;
 }
 
 .container {
@@ -19,6 +19,36 @@ body {
 
 .grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-monuments {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background-color: #7b68ee;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 30px;
 }
 
 header {
@@ -108,12 +138,26 @@ img {
 .img-res {
   max-width: 100%;
   padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+}
+
+.cards-img {
+  height: 150px;
+  width: auto;
 }
 
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px;
+}
+
+section.second {
+  background-color: #1e90ff;
+}
+
+.center-txt {
+  text-align: center;
 }
 
 footer {
