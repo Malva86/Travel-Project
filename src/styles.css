@@ -160,6 +160,11 @@ img {
 .gallery {
   height: 170px;
   width: 250px;
+  filter: sepia(80%);
+}
+
+.gate {
+  filter: grayscale(10);
 }
 
 .gallery:hover {
