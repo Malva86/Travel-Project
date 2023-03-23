@@ -217,6 +217,32 @@ footer a {
   line-height: 1.5;
 }
 
+.numbers {
+  background: #b0e0e6;
+}
+
+.numbers h2 {
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background: #e6e6fa;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  background: white;
+}
+
+.table {
+  overflow-x: auto;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
