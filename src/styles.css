@@ -136,7 +136,7 @@ img {
 }
 
 .img-res {
-  max-width: 100%;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   display: block;
@@ -145,6 +145,11 @@ img {
 .cards-img {
   height: 150px;
   width: auto;
+}
+
+.map {
+  height: auto;
+  width: 200px;
 }
 
 section {
@@ -219,5 +224,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card img {
+    display: none;
+  }
+
+  .card h3 {
+    padding-top: 30px;
   }
 }
